@@ -1,0 +1,127 @@
+  .compact .message .markup {
+
+    display: flex;
+
+    padding-left: 0px !important;
+
+    text-indent: 0px !important;
+
+    padding-top: 0;
+
+    margin-top: 0 !important;
+
+  }
+
+  
+
+  .compact .message .markup .timestamp {
+
+    width: 65px !important;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+
+  }
+
+  
+
+  .compact .message .markup .username-wrapper {
+
+    width: 100px !important;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: flex-start;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    border-right: 2px solid hsla(0,0%,100%,.04);
+
+    margin-right: 5px;
+
+  }
+
+  
+
+  .compact .message .accessory {
+
+    box-sizing: border-box;
+
+    padding-left: 165px !important;
+
+  }
+
+  
+
+  .compact .message .markup .username-wrapper .user-name {
+
+    font-size: 14px !important;
+
+    display: block;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+  }
+
+  
+
+  .compact .message .markup .username-wrapper .bot-tag { padding: 1px 4px !important; }
+
+  
+
+
+
+  
+
+  .compact .message .markup .message-content {
+
+    box-sizing: border-box;
+
+    font-size: 15px;
+
+    word-break: break-all;
+
+    display: block;
+
+  }
+
+  
+
+  .compact .message-content {
+
+    width: 100% !important;
+
+  }
+
+  
+
+  /* make emoji bigger */
+
+  .compact .message .markup .message-content .emoji {
+
+    width: 20px;
+
+    height: 20px;
+
+  }
+
+  
+
+  .compact .message .markup .message-content .jumboable {
+
+    width: 30px !important;
+
+    height: 30px !important;
+
+  }
